@@ -2,7 +2,7 @@
 
 A configurable callback widget with intelligent time-slot scheduling, behavioral triggers and a lightweight PHP administration panel.
 
-### Overview
+## Overview
 
 Smart Lead Capture Widget is a lightweight, configurable lead generation component designed for integration into landing pages and websites.
 
