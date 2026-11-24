@@ -86,18 +86,6 @@ This architectural decision was made to simplify deployment across different hos
 
 The application consists of two main parts: the administration panel and the client-facing widget.
 
-# Administration Panel
-
-Responsible for managing widget configuration.
-
-- PHP handles session-based access control and server-side configuration.
-
-- Vue 3 provides reactive form controls and dynamic input filtering.
-
-- SVG provides real-time visual feedback when customizing the widget.
-
-- Fetch API submits configuration changes asynchronously.
-
 ## Technical Decisions
 
 # File-Based Configuration Instead of a Database
