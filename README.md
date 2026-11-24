@@ -14,7 +14,7 @@ The project was designed with deployment flexibility in mind: it can operate on 
 
 ## Key Features
 
-# 1. Interactive Lead Capture
+### 1. Interactive Lead Capture
 
 - Animated floating callback button.
 
@@ -26,7 +26,7 @@ The project was designed with deployment flexibility in mind: it can operate on 
 
 - Modal dismissal through the close button, backdrop click or Escape key.
 
-# 2. Smart Callback Scheduling
+### 2. Smart Callback Scheduling
 
 The widget generates available callback time slots dynamically based on the configured working hours.
 
@@ -44,7 +44,7 @@ Features include:
 
 - The scheduling logic is designed to prevent visitors from selecting callback times outside the configured working hours.
 
-# 3. Behavioral Triggers
+### 3. Behavioral Triggers
 
 The widget supports several interaction scenarios:
 
@@ -56,7 +56,7 @@ The widget supports several interaction scenarios:
 
 A session-based timer tracks the visitor's time on the website. Cookies are used to limit repeated automatic popup displays after dismissal.
 
-# 4. Administration Panel
+### 4. Administration Panel
 
 The administration interface allows website owners to configure the widget without modifying its source code.
 
@@ -76,7 +76,7 @@ Available settings:
 
 The interface includes a live SVG preview that reflects color changes immediately.
 
-# 5. Lightweight Deployment
+### 5. Lightweight Deployment
 
 The project uses file-based configuration storage instead of a database.
 
