@@ -1,0 +1,44 @@
+body { font-family: "Montserrat", sans-serif;  padding-bottom: 90px}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1600px;
+}
+
+.row-flex {
+	display: -webkit-box;
+	display: flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+}
+
+.edit-block { margin-top: 30px; margin-bottom: 30px }
+.offset {padding-left: 50px}
+
+.color-item {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  column-gap: 10px;
+  align-items: center;
+  webkit-align-items: center;
+}
+
+.update {	margin-top: 20px;	}
+
+.btn {
+  cursor: pointer;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: 1px solid
+}
+
+.btn:hover {background-color: #dbdada}
+.update-status { margin-left: 10px;}
+.margin-top-10 {margin-top: 10px}
+.gap-10 {gap: 10px}
+select {  padding: 5px 10px;  border-radius: 5px;}
+input[type="radio"], input[type="checkbox"] { margin: 0px;}
+label input[type="checkbox"], label input[type="radio"] { margin-right: 4px; transform: translateY(1px);}
