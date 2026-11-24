@@ -88,11 +88,11 @@ The application consists of two main parts: the administration panel and the cli
 
 ## Technical Decisions
 
-# File-Based Configuration Instead of a Database
+### File-Based Configuration Instead of a Database
 
 One of the main architectural decisions was to avoid introducing a database dependency. The widget is intended to be deployed across different websites and hosting environments. Not all of these environments provide a database or justify the additional infrastructure.
 
-# Reactive Configuration Management
+### Reactive Configuration Management
 
 Vue 3 was used in the administration interface to create a reactive configuration experience.
 
